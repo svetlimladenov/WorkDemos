@@ -1,0 +1,16 @@
+D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.OrderProcessor\bin\Debug\IWantATesla.OrderProcessor.exe.config
+D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.OrderProcessor\bin\Debug\IWantATesla.OrderProcessor.exe
+D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.OrderProcessor\bin\Debug\IWantATesla.OrderProcessor.pdb
+D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.OrderProcessor\bin\Debug\EasyNetQ.dll
+D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.OrderProcessor\bin\Debug\IWantATesla.Messages.dll
+D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.OrderProcessor\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.OrderProcessor\bin\Debug\Newtonsoft.Json.dll
+D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.OrderProcessor\bin\Debug\RabbitMQ.Client.dll
+D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.OrderProcessor\bin\Debug\IWantATesla.Messages.pdb
+D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.OrderProcessor\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.OrderProcessor\bin\Debug\Newtonsoft.Json.xml
+D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.OrderProcessor\bin\Debug\RabbitMQ.Client.xml
+D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.OrderProcessor\obj\Debug\IWantATesla.OrderProcessor.csprojAssemblyReference.cache
+D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.OrderProcessor\obj\Debug\IWantATesla.OrderProcessor.csproj.CopyComplete
+D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.OrderProcessor\obj\Debug\IWantATesla.OrderProcessor.exe
+D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.OrderProcessor\obj\Debug\IWantATesla.OrderProcessor.pdb
