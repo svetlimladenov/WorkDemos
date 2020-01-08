@@ -1,0 +1,13 @@
+D:\vs\RabbitMQDemo\SecondDemo\Worker\bin\Debug\netcoreapp3.1\Worker.exe
+D:\vs\RabbitMQDemo\SecondDemo\Worker\bin\Debug\netcoreapp3.1\Worker.deps.json
+D:\vs\RabbitMQDemo\SecondDemo\Worker\bin\Debug\netcoreapp3.1\Worker.runtimeconfig.json
+D:\vs\RabbitMQDemo\SecondDemo\Worker\bin\Debug\netcoreapp3.1\Worker.runtimeconfig.dev.json
+D:\vs\RabbitMQDemo\SecondDemo\Worker\bin\Debug\netcoreapp3.1\Worker.dll
+D:\vs\RabbitMQDemo\SecondDemo\Worker\bin\Debug\netcoreapp3.1\Worker.pdb
+D:\vs\RabbitMQDemo\SecondDemo\Worker\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\vs\RabbitMQDemo\SecondDemo\Worker\obj\Debug\netcoreapp3.1\Worker.AssemblyInfoInputs.cache
+D:\vs\RabbitMQDemo\SecondDemo\Worker\obj\Debug\netcoreapp3.1\Worker.AssemblyInfo.cs
+D:\vs\RabbitMQDemo\SecondDemo\Worker\obj\Debug\netcoreapp3.1\Worker.csproj.CopyComplete
+D:\vs\RabbitMQDemo\SecondDemo\Worker\obj\Debug\netcoreapp3.1\Worker.dll
+D:\vs\RabbitMQDemo\SecondDemo\Worker\obj\Debug\netcoreapp3.1\Worker.pdb
+D:\vs\RabbitMQDemo\SecondDemo\Worker\obj\Debug\netcoreapp3.1\Worker.csprojAssemblyReference.cache

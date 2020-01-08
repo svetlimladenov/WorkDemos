@@ -1,0 +1,11 @@
+D:\vs\RabbitMQDemo\TrashDemo\Producer\Producer\bin\Debug\Producer.exe.config
+D:\vs\RabbitMQDemo\TrashDemo\Producer\Producer\bin\Debug\Producer.exe
+D:\vs\RabbitMQDemo\TrashDemo\Producer\Producer\bin\Debug\Producer.pdb
+D:\vs\RabbitMQDemo\TrashDemo\Producer\Producer\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\vs\RabbitMQDemo\TrashDemo\Producer\Producer\bin\Debug\RabbitMQ.Client.dll
+D:\vs\RabbitMQDemo\TrashDemo\Producer\Producer\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+D:\vs\RabbitMQDemo\TrashDemo\Producer\Producer\bin\Debug\RabbitMQ.Client.xml
+D:\vs\RabbitMQDemo\TrashDemo\Producer\Producer\obj\Debug\Producer.csprojAssemblyReference.cache
+D:\vs\RabbitMQDemo\TrashDemo\Producer\Producer\obj\Debug\Producer.csproj.CopyComplete
+D:\vs\RabbitMQDemo\TrashDemo\Producer\Producer\obj\Debug\Producer.exe
+D:\vs\RabbitMQDemo\TrashDemo\Producer\Producer\obj\Debug\Producer.pdb

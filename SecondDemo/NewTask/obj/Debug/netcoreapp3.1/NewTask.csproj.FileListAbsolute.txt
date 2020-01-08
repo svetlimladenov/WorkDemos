@@ -1,0 +1,13 @@
+D:\vs\RabbitMQDemo\SecondDemo\NewTask\bin\Debug\netcoreapp3.1\NewTask.exe
+D:\vs\RabbitMQDemo\SecondDemo\NewTask\bin\Debug\netcoreapp3.1\NewTask.deps.json
+D:\vs\RabbitMQDemo\SecondDemo\NewTask\bin\Debug\netcoreapp3.1\NewTask.runtimeconfig.json
+D:\vs\RabbitMQDemo\SecondDemo\NewTask\bin\Debug\netcoreapp3.1\NewTask.runtimeconfig.dev.json
+D:\vs\RabbitMQDemo\SecondDemo\NewTask\bin\Debug\netcoreapp3.1\NewTask.dll
+D:\vs\RabbitMQDemo\SecondDemo\NewTask\bin\Debug\netcoreapp3.1\NewTask.pdb
+D:\vs\RabbitMQDemo\SecondDemo\NewTask\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\vs\RabbitMQDemo\SecondDemo\NewTask\obj\Debug\netcoreapp3.1\NewTask.csprojAssemblyReference.cache
+D:\vs\RabbitMQDemo\SecondDemo\NewTask\obj\Debug\netcoreapp3.1\NewTask.AssemblyInfoInputs.cache
+D:\vs\RabbitMQDemo\SecondDemo\NewTask\obj\Debug\netcoreapp3.1\NewTask.AssemblyInfo.cs
+D:\vs\RabbitMQDemo\SecondDemo\NewTask\obj\Debug\netcoreapp3.1\NewTask.csproj.CopyComplete
+D:\vs\RabbitMQDemo\SecondDemo\NewTask\obj\Debug\netcoreapp3.1\NewTask.dll
+D:\vs\RabbitMQDemo\SecondDemo\NewTask\obj\Debug\netcoreapp3.1\NewTask.pdb
