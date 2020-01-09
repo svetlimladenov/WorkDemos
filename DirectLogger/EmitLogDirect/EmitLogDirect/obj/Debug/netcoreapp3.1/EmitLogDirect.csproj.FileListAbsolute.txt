@@ -1,0 +1,13 @@
+D:\vs\RabbitMQDemos\DirectLogger\EmitLogDirect\EmitLogDirect\bin\Debug\netcoreapp3.1\EmitLogDirect.exe
+D:\vs\RabbitMQDemos\DirectLogger\EmitLogDirect\EmitLogDirect\obj\Debug\netcoreapp3.1\EmitLogDirect.csprojAssemblyReference.cache
+D:\vs\RabbitMQDemos\DirectLogger\EmitLogDirect\EmitLogDirect\obj\Debug\netcoreapp3.1\EmitLogDirect.AssemblyInfoInputs.cache
+D:\vs\RabbitMQDemos\DirectLogger\EmitLogDirect\EmitLogDirect\obj\Debug\netcoreapp3.1\EmitLogDirect.AssemblyInfo.cs
+D:\vs\RabbitMQDemos\DirectLogger\EmitLogDirect\EmitLogDirect\bin\Debug\netcoreapp3.1\EmitLogDirect.deps.json
+D:\vs\RabbitMQDemos\DirectLogger\EmitLogDirect\EmitLogDirect\bin\Debug\netcoreapp3.1\EmitLogDirect.runtimeconfig.json
+D:\vs\RabbitMQDemos\DirectLogger\EmitLogDirect\EmitLogDirect\bin\Debug\netcoreapp3.1\EmitLogDirect.runtimeconfig.dev.json
+D:\vs\RabbitMQDemos\DirectLogger\EmitLogDirect\EmitLogDirect\bin\Debug\netcoreapp3.1\EmitLogDirect.dll
+D:\vs\RabbitMQDemos\DirectLogger\EmitLogDirect\EmitLogDirect\bin\Debug\netcoreapp3.1\EmitLogDirect.pdb
+D:\vs\RabbitMQDemos\DirectLogger\EmitLogDirect\EmitLogDirect\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\vs\RabbitMQDemos\DirectLogger\EmitLogDirect\EmitLogDirect\obj\Debug\netcoreapp3.1\EmitLogDirect.csproj.CopyComplete
+D:\vs\RabbitMQDemos\DirectLogger\EmitLogDirect\EmitLogDirect\obj\Debug\netcoreapp3.1\EmitLogDirect.dll
+D:\vs\RabbitMQDemos\DirectLogger\EmitLogDirect\EmitLogDirect\obj\Debug\netcoreapp3.1\EmitLogDirect.pdb

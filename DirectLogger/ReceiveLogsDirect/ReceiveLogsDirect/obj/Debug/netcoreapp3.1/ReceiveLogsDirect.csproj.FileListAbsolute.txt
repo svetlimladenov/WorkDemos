@@ -1,0 +1,13 @@
+D:\vs\RabbitMQDemos\DirectLogger\ReceiveLogsDirect\ReceiveLogsDirect\bin\Debug\netcoreapp3.1\ReceiveLogsDirect.exe
+D:\vs\RabbitMQDemos\DirectLogger\ReceiveLogsDirect\ReceiveLogsDirect\obj\Debug\netcoreapp3.1\ReceiveLogsDirect.AssemblyInfoInputs.cache
+D:\vs\RabbitMQDemos\DirectLogger\ReceiveLogsDirect\ReceiveLogsDirect\obj\Debug\netcoreapp3.1\ReceiveLogsDirect.AssemblyInfo.cs
+D:\vs\RabbitMQDemos\DirectLogger\ReceiveLogsDirect\ReceiveLogsDirect\bin\Debug\netcoreapp3.1\ReceiveLogsDirect.deps.json
+D:\vs\RabbitMQDemos\DirectLogger\ReceiveLogsDirect\ReceiveLogsDirect\bin\Debug\netcoreapp3.1\ReceiveLogsDirect.runtimeconfig.json
+D:\vs\RabbitMQDemos\DirectLogger\ReceiveLogsDirect\ReceiveLogsDirect\bin\Debug\netcoreapp3.1\ReceiveLogsDirect.runtimeconfig.dev.json
+D:\vs\RabbitMQDemos\DirectLogger\ReceiveLogsDirect\ReceiveLogsDirect\bin\Debug\netcoreapp3.1\ReceiveLogsDirect.dll
+D:\vs\RabbitMQDemos\DirectLogger\ReceiveLogsDirect\ReceiveLogsDirect\bin\Debug\netcoreapp3.1\ReceiveLogsDirect.pdb
+D:\vs\RabbitMQDemos\DirectLogger\ReceiveLogsDirect\ReceiveLogsDirect\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\vs\RabbitMQDemos\DirectLogger\ReceiveLogsDirect\ReceiveLogsDirect\obj\Debug\netcoreapp3.1\ReceiveLogsDirect.csproj.CopyComplete
+D:\vs\RabbitMQDemos\DirectLogger\ReceiveLogsDirect\ReceiveLogsDirect\obj\Debug\netcoreapp3.1\ReceiveLogsDirect.dll
+D:\vs\RabbitMQDemos\DirectLogger\ReceiveLogsDirect\ReceiveLogsDirect\obj\Debug\netcoreapp3.1\ReceiveLogsDirect.pdb
+D:\vs\RabbitMQDemos\DirectLogger\ReceiveLogsDirect\ReceiveLogsDirect\obj\Debug\netcoreapp3.1\ReceiveLogsDirect.csprojAssemblyReference.cache

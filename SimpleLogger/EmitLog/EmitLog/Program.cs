@@ -24,7 +24,7 @@ namespace EmitLog
                     var body = Encoding.UTF8.GetBytes(message);
 
                     channel.BasicPublish(exchange: "logs",
-                                         routingKey: "",
+                                         routingKey: "red",
                                          basicProperties: null,
                                          body: body);
 
