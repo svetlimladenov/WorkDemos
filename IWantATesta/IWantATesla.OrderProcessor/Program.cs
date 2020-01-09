@@ -13,6 +13,7 @@ namespace IWantATesla.OrderProcessor
     {
         static void Main(string[] args)
         {
+            //this imitates a microservice
             var messageBus = RabbitHutch.CreateBus("host=localhost");
             LogProvider.SetCurrentLogProvider(ConsoleLogProvider.Instance);
 

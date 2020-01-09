@@ -19,3 +19,5 @@ D:\vs\RabbitMQDemos\SimpleLogger\EmitLog\EmitLog\obj\Debug\EmitLog.csprojAssembl
 D:\vs\RabbitMQDemos\SimpleLogger\EmitLog\EmitLog\obj\Debug\EmitLog.csproj.CopyComplete
 D:\vs\RabbitMQDemos\SimpleLogger\EmitLog\EmitLog\obj\Debug\EmitLog.exe
 D:\vs\RabbitMQDemos\SimpleLogger\EmitLog\EmitLog\obj\Debug\EmitLog.pdb
+D:\vs\RabbitMQDemos\SimpleLogger\EmitLog\EmitLog\bin\Debug\Newtonsoft.Json.dll
+D:\vs\RabbitMQDemos\SimpleLogger\EmitLog\EmitLog\bin\Debug\Newtonsoft.Json.xml
