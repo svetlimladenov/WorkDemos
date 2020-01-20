@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQLProject", "SQLProject\SQLProject.sqlproj", "{8E987E95-DA86-4FF1-9C3D-F9A80116B3F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebSites\WebApi\WebApi.csproj", "{EB25DD3C-8D2E-4413-A486-28E391BFF0E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{390E1D31-A299-47C7-8916-665483FAA263}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,14 @@ Global
 		{8E987E95-DA86-4FF1-9C3D-F9A80116B3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E987E95-DA86-4FF1-9C3D-F9A80116B3F3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8E987E95-DA86-4FF1-9C3D-F9A80116B3F3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EB25DD3C-8D2E-4413-A486-28E391BFF0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB25DD3C-8D2E-4413-A486-28E391BFF0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB25DD3C-8D2E-4413-A486-28E391BFF0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB25DD3C-8D2E-4413-A486-28E391BFF0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390E1D31-A299-47C7-8916-665483FAA263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390E1D31-A299-47C7-8916-665483FAA263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390E1D31-A299-47C7-8916-665483FAA263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390E1D31-A299-47C7-8916-665483FAA263}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
