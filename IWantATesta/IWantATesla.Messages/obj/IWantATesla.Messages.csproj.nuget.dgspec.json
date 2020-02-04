@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vs\\RabbitMQDemos\\IWantATesta\\IWantATesla.Messages\\IWantATesla.Messages.csproj": {}
+    "D:\\SmartIT\\RabbitMQDemos\\IWantATesta\\IWantATesla.Messages\\IWantATesla.Messages.csproj": {}
   },
   "projects": {
-    "D:\\vs\\RabbitMQDemos\\IWantATesta\\IWantATesla.Messages\\IWantATesla.Messages.csproj": {
+    "D:\\SmartIT\\RabbitMQDemos\\IWantATesta\\IWantATesla.Messages\\IWantATesla.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs\\RabbitMQDemos\\IWantATesta\\IWantATesla.Messages\\IWantATesla.Messages.csproj",
+        "projectUniqueName": "D:\\SmartIT\\RabbitMQDemos\\IWantATesta\\IWantATesla.Messages\\IWantATesla.Messages.csproj",
         "projectName": "IWantATesla.Messages",
-        "projectPath": "D:\\vs\\RabbitMQDemos\\IWantATesta\\IWantATesla.Messages\\IWantATesla.Messages.csproj",
-        "packagesPath": "C:\\Users\\svetlin.mladenov\\.nuget\\packages\\",
-        "outputPath": "D:\\vs\\RabbitMQDemos\\IWantATesta\\IWantATesla.Messages\\obj\\",
+        "projectPath": "D:\\SmartIT\\RabbitMQDemos\\IWantATesta\\IWantATesla.Messages\\IWantATesla.Messages.csproj",
+        "packagesPath": "C:\\Users\\Svetlin Mladenov\\.nuget\\packages\\",
+        "outputPath": "D:\\SmartIT\\RabbitMQDemos\\IWantATesta\\IWantATesla.Messages\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\svetlin.mladenov\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Svetlin Mladenov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
