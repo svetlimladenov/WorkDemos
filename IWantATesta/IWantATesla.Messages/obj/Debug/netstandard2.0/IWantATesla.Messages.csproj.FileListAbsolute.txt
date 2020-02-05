@@ -6,3 +6,11 @@ D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.Messages\obj\Debug\netstandard2.0\IW
 D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.Messages\obj\Debug\netstandard2.0\IWantATesla.Messages.AssemblyInfo.cs
 D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.Messages\obj\Debug\netstandard2.0\IWantATesla.Messages.dll
 D:\vs\RabbitMQDemos\IWantATesta\IWantATesla.Messages\obj\Debug\netstandard2.0\IWantATesla.Messages.pdb
+D:\SmartIT\RabbitMQDemos\IWantATesta\IWantATesla.Messages\bin\Debug\netstandard2.0\IWantATesla.Messages.deps.json
+D:\SmartIT\RabbitMQDemos\IWantATesta\IWantATesla.Messages\bin\Debug\netstandard2.0\IWantATesla.Messages.dll
+D:\SmartIT\RabbitMQDemos\IWantATesta\IWantATesla.Messages\bin\Debug\netstandard2.0\IWantATesla.Messages.pdb
+D:\SmartIT\RabbitMQDemos\IWantATesta\IWantATesla.Messages\obj\Debug\netstandard2.0\IWantATesla.Messages.csprojAssemblyReference.cache
+D:\SmartIT\RabbitMQDemos\IWantATesta\IWantATesla.Messages\obj\Debug\netstandard2.0\IWantATesla.Messages.AssemblyInfoInputs.cache
+D:\SmartIT\RabbitMQDemos\IWantATesta\IWantATesla.Messages\obj\Debug\netstandard2.0\IWantATesla.Messages.AssemblyInfo.cs
+D:\SmartIT\RabbitMQDemos\IWantATesta\IWantATesla.Messages\obj\Debug\netstandard2.0\IWantATesla.Messages.dll
+D:\SmartIT\RabbitMQDemos\IWantATesta\IWantATesla.Messages\obj\Debug\netstandard2.0\IWantATesla.Messages.pdb
