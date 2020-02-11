@@ -10,8 +10,7 @@ namespace CreditCardApplication.Tests
         [Fact]
         public void AcceptHighIncomeApplications()
         {
-            var mockValidator = new Mock<IFrequentFlyerNumberValidator>();
-
+            var mockValidator = new Mock<IFrequentFlyerNumberValidator>(MockBehavior.Strict);
             var sut = new CreditCardApplicationEvaluator(mockValidator.Object);
 
             var application = new CreditCardApplications.CreditCardApplication()
@@ -27,7 +26,7 @@ namespace CreditCardApplication.Tests
         [Fact]
         public void ReferYoungApplications()
         {
-            var mockValidator = new Mock<IFrequentFlyerNumberValidator>();
+            var mockValidator = new Mock<IFrequentFlyerNumberValidator>(MockBehavior.Strict);
             var sut = new CreditCardApplicationEvaluator(mockValidator.Object);
 
             var application = new CreditCardApplications.CreditCardApplication()
@@ -44,13 +43,14 @@ namespace CreditCardApplication.Tests
         [Fact]
         public void DeclineLowIncomeApplications()
         {
-            var mockValidator = new Mock<IFrequentFlyerNumberValidator>();
+            var mockValidator = new Mock<IFrequentFlyerNumberValidator>(MockBehavior.Strict);
 
             //ako e "x" shte vurne true inache - false
             //mockValidator.Setup(x => x.IsValid("x")).Returns(true);
 
             //ako ne ni puka kakvo se podava na metoda slagame isAny
             mockValidator.Setup(x => x.IsValid(It.IsAny<string>())).Returns(true);
+            //mockValidator.Setup(x => x.IsValid(It.Is<string>(x => x.StartsWith('x')))).Returns(true);
 
             var sut = new CreditCardApplicationEvaluator(mockValidator.Object);
 
