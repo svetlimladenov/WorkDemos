@@ -37,7 +37,7 @@ namespace WebApiForTests.Controllers
         }
 
         [HttpPost("CreateProduct")]
-        public async Task<ActionResult> CreateProduct(CreateProductInputModel inputModel)
+        public async Task<ActionResult> CreateProduct([FromBody]CreateProductInputModel inputModel)
         {
             if (!ModelState.IsValid)
             {
@@ -48,7 +48,7 @@ namespace WebApiForTests.Controllers
         }
 
         [HttpGet("GetProduct/{id}")]
-        public async Task<ActionResult<ProductDTO>> GetProductById(int id)
+        public async Task<ActionResult<ProductDTO>> GetProductById([FromRoute]int id)
         {
             var product = await this.productServices.GetProductByIdAsync(id);
             if (product == null)

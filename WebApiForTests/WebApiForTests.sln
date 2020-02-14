@@ -3,23 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiForTests", "WebApiForTests\WebApiForTests.csproj", "{31E458EA-1456-4AD4-80DF-FC675AECEE76}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A69AC68B-AEE1-4BC2-AB23-51291317C6AD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{B3E912B8-6A71-4968-AEA9-ABFEF507F42D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Data", "Database\WebApi.Data\WebApi.Data.csproj", "{641B3627-FA96-4FEB-844E-3BD7D77B62F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Data", "Database\WebApi.Data\WebApi.Data.csproj", "{641B3627-FA96-4FEB-844E-3BD7D77B62F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Services", "Services\WebApi.Services\WebApi.Services.csproj", "{E33C367D-9F55-4039-941A-5E5941CE8278}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Services", "Services\WebApi.Services\WebApi.Services.csproj", "{E33C367D-9F55-4039-941A-5E5941CE8278}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DCD30357-D5A4-4B7B-A3AA-A031D5800F4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Tests", "Tests\WebApi.Tests\WebApi.Tests.csproj", "{F0927CB5-4321-41AC-865E-28C7F29A20D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Tests", "Tests\WebApi.Tests\WebApi.Tests.csproj", "{F0927CB5-4321-41AC-865E-28C7F29A20D5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTOs", "DTOs", "{821D95CC-8244-41E2-AD84-439F17D97FAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.DTO", "DTOs\WebApi.DTO\WebApi.DTO.csproj", "{FF76C8B5-DACC-4B34-BD04-508F9D2D82DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.DTO", "DTOs\WebApi.DTO\WebApi.DTO.csproj", "{FF76C8B5-DACC-4B34-BD04-508F9D2D82DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{54A9EBA9-ED7B-4FE5-9EC3-F0E5B9FD5E77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiForTests", "Web\WebApiForTests\WebApiForTests.csproj", "{70DF4F4F-ADB6-414B-9D15-B8E715253B88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +29,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{31E458EA-1456-4AD4-80DF-FC675AECEE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31E458EA-1456-4AD4-80DF-FC675AECEE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31E458EA-1456-4AD4-80DF-FC675AECEE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{31E458EA-1456-4AD4-80DF-FC675AECEE76}.Release|Any CPU.Build.0 = Release|Any CPU
 		{641B3627-FA96-4FEB-844E-3BD7D77B62F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{641B3627-FA96-4FEB-844E-3BD7D77B62F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{641B3627-FA96-4FEB-844E-3BD7D77B62F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,6 +45,10 @@ Global
 		{FF76C8B5-DACC-4B34-BD04-508F9D2D82DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF76C8B5-DACC-4B34-BD04-508F9D2D82DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF76C8B5-DACC-4B34-BD04-508F9D2D82DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70DF4F4F-ADB6-414B-9D15-B8E715253B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70DF4F4F-ADB6-414B-9D15-B8E715253B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70DF4F4F-ADB6-414B-9D15-B8E715253B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70DF4F4F-ADB6-414B-9D15-B8E715253B88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +58,7 @@ Global
 		{E33C367D-9F55-4039-941A-5E5941CE8278} = {A69AC68B-AEE1-4BC2-AB23-51291317C6AD}
 		{F0927CB5-4321-41AC-865E-28C7F29A20D5} = {DCD30357-D5A4-4B7B-A3AA-A031D5800F4E}
 		{FF76C8B5-DACC-4B34-BD04-508F9D2D82DE} = {821D95CC-8244-41E2-AD84-439F17D97FAE}
+		{70DF4F4F-ADB6-414B-9D15-B8E715253B88} = {54A9EBA9-ED7B-4FE5-9EC3-F0E5B9FD5E77}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C676A06E-5F1F-4398-B21A-20BA3CD929A7}
