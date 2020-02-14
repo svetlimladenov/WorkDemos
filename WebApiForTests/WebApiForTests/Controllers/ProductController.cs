@@ -11,32 +11,79 @@ namespace WebApiForTests.Controllers
 {
     public class ProductController : ApiController
     {
-        private readonly ProductServices productServices;
+        private readonly IProductServices productServices;
 
-        public ProductController(ProductServices productServices)
+        public ProductController(IProductServices productServices)
         {
             this.productServices = productServices;
         }
 
         [HttpGet("AllProducts")]
-        public List<ProductDTO> GetAllProducts()
+        public async Task<IEnumerable<ProductDTO>> GetAllProducts()
         {
-            var allProducts = this.productServices.GetAllProducts();
+            var allProducts = await this.productServices.GetAllProductsAsync();
             return allProducts; 
         }
 
         [HttpPost("AddProductType")]
-        public async Task<int> AddProductType(ProductTypeDTO productTypeDTO)
+        public async Task<ActionResult> AddProductType(ProductTypeDTO productTypeDTO)
         {
-            var id = await this.productServices.AddProductTypeAsync(productTypeDTO);
-            return id;
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var productType = await this.productServices.AddProductTypeAsync(productTypeDTO);
+            return CreatedAtAction(nameof(GetProductTypeById), new { id = productType.Id }, productType);
         }
 
         [HttpPost("CreateProduct")]
-        public async Task<int> CreateProduct(CreateProductInputModel inputModel)
+        public async Task<ActionResult> CreateProduct(CreateProductInputModel inputModel)
         {
-            var id = await this.productServices.CreateProductAsync(inputModel);
-            return id;
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var product = await this.productServices.CreateProductAsync(inputModel);
+            return CreatedAtAction(nameof(GetProductById), new { id = product.Id }, product);
+        }
+
+        [HttpGet("GetProduct/{id}")]
+        public async Task<ActionResult<ProductDTO>> GetProductById(int id)
+        {
+            var product = await this.productServices.GetProductByIdAsync(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            //TODO: Use automapper
+            var dto = new ProductDTO()
+            {
+                Name = product.Name,
+                MaxPrincipal = product.MaxPrincipal,
+                MinPrincipal = product.MinPrincipal,
+                ProductTypeId = product.ProductTypeId,
+                Step = product.Step
+            };
+            return Ok(dto);
+        }
+
+        [HttpGet("GetProductType/{id}")]
+        public async Task<ActionResult<ProductTypeDTO>> GetProductTypeById(int id)
+        {
+            var productType = await this.productServices.GetProductTypeByIdAsync(id);
+
+            if (productType == null)
+            {
+                return NotFound();
+            }
+            //TODO: Use automapper
+            var dto = new ProductTypeDTO()
+            {
+                Name = productType.Name,
+            };
+
+            return dto;
         }
     }
 }

@@ -16,14 +16,13 @@ namespace WebApi.Tests
         public ProductServicesTests()
         {
             services = new ProductServices(mockDbContext.Object);
-            mockDbContext.Setup(x => x.Products).Returns(new Mock<List<Product>() >);
+            
         }
 
         [Fact]
         public void GetAllProducts_ShouldReturnAllActiveProducts()
         {
-            //act
-            this.services.GetAllProducts();
+           
         }
     }
 }

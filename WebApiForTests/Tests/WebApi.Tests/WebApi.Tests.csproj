@@ -18,6 +18,7 @@
     <ProjectReference Include="..\..\Database\WebApi.Data\WebApi.Data.csproj" />
     <ProjectReference Include="..\..\DTOs\WebApi.DTO\WebApi.DTO.csproj" />
     <ProjectReference Include="..\..\Services\WebApi.Services\WebApi.Services.csproj" />
+    <ProjectReference Include="..\..\WebApiForTests\WebApiForTests.csproj" />
   </ItemGroup>
 
 </Project>

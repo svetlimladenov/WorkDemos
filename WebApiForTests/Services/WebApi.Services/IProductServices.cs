@@ -2,16 +2,21 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using WebApi.Data;
 using WebApi.DTO.Product;
 
 namespace WebApi.Services
 {
-    interface IProductServices
+    public interface IProductServices
     {
-        Task<int> AddProductTypeAsync(ProductTypeDTO inputModel);
+        Task<ProductType> AddProductTypeAsync(ProductTypeDTO inputModel);
 
-        List<ProductDTO> GetAllProducts();
+        Task<List<ProductDTO>> GetAllProductsAsync();
 
-        Task<int> CreateProductAsync(CreateProductInputModel inputModel);
+        Task<Product> CreateProductAsync(CreateProductInputModel inputModel);
+
+        Task<Product> GetProductByIdAsync(int id);
+
+        Task<ProductType> GetProductTypeByIdAsync(int id);
     }
 }

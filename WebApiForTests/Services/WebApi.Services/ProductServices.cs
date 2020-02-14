@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace WebApi.Services
             this.dbContext = dbContext;
         }
 
-        public async Task<int> AddProductTypeAsync(ProductTypeDTO inputModel)
+        public async Task<ProductType> AddProductTypeAsync(ProductTypeDTO inputModel)
         {
             var productType = new ProductType()
             {
@@ -25,23 +26,23 @@ namespace WebApi.Services
 
             await this.dbContext.ProductType.AddAsync(productType);
             await this.dbContext.SaveChangesAsync();
-            return productType.Id;
+            return productType;
         }
 
-        public List<ProductDTO> GetAllProducts() 
+        public async Task<List<ProductDTO>> GetAllProductsAsync()
         {
-            var products = this.dbContext.Products.Select(x => new ProductDTO
+            var products = await this.dbContext.Products.Select(x => new ProductDTO
             {
                 Name = x.Name,
                 MaxPrincipal = x.MaxPrincipal,
                 MinPrincipal = x.MinPrincipal,
                 Step = x.Step
-            }).ToList();
+            }).ToListAsync();
 
             return products;
         }
 
-        public async Task<int> CreateProductAsync(CreateProductInputModel inputModel)
+        public async Task<Product> CreateProductAsync(CreateProductInputModel inputModel)
         {
             var product = new Product()
             {
@@ -53,7 +54,13 @@ namespace WebApi.Services
             };
             await this.dbContext.AddAsync(product);
             await this.dbContext.SaveChangesAsync();
-            return product.Id;
+            return product;
         }
+
+        public async Task<Product> GetProductByIdAsync(int id)
+            => await this.dbContext.Products.FirstOrDefaultAsync(x => x.Id == id);
+
+        public async Task<ProductType> GetProductTypeByIdAsync(int id)
+            => await this.dbContext.ProductType.FirstOrDefaultAsync(x => x.Id == id);
     }
 }
