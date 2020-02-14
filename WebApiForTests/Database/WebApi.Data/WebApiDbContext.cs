@@ -23,10 +23,16 @@ namespace WebApi.Data
 
         public virtual DbSet<ProductType> ProductType { get; set; }
 
+        public virtual DbSet<ShoppingItem> ShoppingItem { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Credit>()
                  .Property(c => c.Limit)
+                 .HasColumnType("decimal(5,2)");
+
+            modelBuilder.Entity<ShoppingItem>()
+                 .Property(c => c.Price)
                  .HasColumnType("decimal(5,2)");
         }
 

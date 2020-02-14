@@ -19,6 +19,7 @@ namespace WebApi.Tests
         {
             mockDbContext = new Mock<WebApiDbContext>();
             services = new ProductServices(mockDbContext.Object);
+<<<<<<< HEAD
             var mockedProducts = new Mock<DbSet<Product>>();
             mockedProducts.Object.Add(new Product()
             {
@@ -29,13 +30,20 @@ namespace WebApi.Tests
             });
 
             mockDbContext.Setup(x => x.Products).Returns(mockedProducts.Object);
+=======
+            
+>>>>>>> 327bf2c23f81a81621b5777037cb4a01bdc8c225
         }
 
         [Fact]
         public void GetAllProducts_ShouldReturnAllActiveProducts()
         {
+<<<<<<< HEAD
             var products = this.services.GetAllProducts();
             Assert.Equal("Credit", products.FirstOrDefault()?.Name);
+=======
+           
+>>>>>>> 327bf2c23f81a81621b5777037cb4a01bdc8c225
         }
     }
 }
