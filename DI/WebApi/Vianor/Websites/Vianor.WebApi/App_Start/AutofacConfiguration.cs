@@ -11,10 +11,10 @@ namespace Vianor.WebApi
     {
         public static void Configure()
         {
-            ContainerBuilder builder = new ContainerBuilder();
+            var builder = new ContainerBuilder();
 
-            builder.RegisterType<BusContainer>().As<IBusContainer>();
-            builder.RegisterApiControllers(Assembly.GetExecutingAssembly());
+            builder.RegisterType<BusContainer>().As<IBusContainer>().SingleInstance();
+            builder.RegisterApiControllers(typeof(WebApiApplication).Assembly);
 
             ILifetimeScope container =  builder.Build();
 

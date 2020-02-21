@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Vianor.MS.Order.Contracts
 {
-    public class GetAllOrdersResponseMessage
+    public class GetAllOrdersResponseMessage : ResponseMe
     {
         public IEnumerable<string> OrderIds { get; set; }
     }

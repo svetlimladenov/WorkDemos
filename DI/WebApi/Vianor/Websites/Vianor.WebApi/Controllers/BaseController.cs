@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.Http;
 using EasyNetQ;
 using Vianor.Infrastructure;
+using Vianor.Infrastructure.Messages;
 
 namespace Vianor.WebApi.Controllers
 {
@@ -15,14 +16,24 @@ namespace Vianor.WebApi.Controllers
 
         public BaseController(IBusContainer busContainer)
         {
-            this.Bus = busContainer.CreateBus();
+            this.Bus = busContainer.GetBus();
         }
 
-        public async Task<TResponse> RequestAsync<TRequest, TResponse>(TRequest message)
-            where TRequest : class 
-            where TResponse : class
+        public Task<TResponse> RequestAsync<TRequest, TResponse>(TRequest message)
+            where TRequest : BaseMessage 
+            where TResponse : ResponseMessage
         {
-            var response = await Bus.RequestAsync<TRequest, TResponse>(message);
+            Task<TResponse> response;
+            try
+            {
+                response = Bus.RequestAsync<TRequest, TResponse>(message);
+            }
+            catch (Exception ex)
+            {
+                //TODO: Used to log here
+                throw;
+            }
+
             return response;
         }
     }

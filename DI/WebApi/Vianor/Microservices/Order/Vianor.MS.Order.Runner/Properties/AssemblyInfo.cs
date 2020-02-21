@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Vianor.MS.Order")]
+[assembly: AssemblyTitle("Vianor.MS.Order.Runner")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("Vianor.MS.Order")]
+[assembly: AssemblyProduct("Vianor.MS.Order.Runner")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("bf537e90-39d1-4834-987f-af1f512dda7d")]
+[assembly: Guid("1910a07e-8945-4adc-a96b-1bd585622cf0")]
 
 // Version information for an assembly consists of the following four values:
 //

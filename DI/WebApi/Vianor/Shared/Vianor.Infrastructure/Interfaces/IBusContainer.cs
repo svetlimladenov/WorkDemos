@@ -9,6 +9,6 @@ namespace Vianor.Infrastructure
 {
     public interface IBusContainer
     {
-        IBus CreateBus();
+        IBus GetBus();
     }   
 }

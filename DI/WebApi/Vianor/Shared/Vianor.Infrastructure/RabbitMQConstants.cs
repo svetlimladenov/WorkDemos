@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Vianor.Infrastructure
 {
-    public abstract class BaseMessage
+    public static class RabbitMQConstants
     {
-        public string Sender { get; set; }
-
-        public DateTime SentDate { get; set; }
+        public const string ConnectionStringConfigEntryName = "rabbitmq_connection_string";
     }
 }

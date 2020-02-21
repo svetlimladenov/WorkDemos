@@ -4,9 +4,16 @@ namespace Vianor.Infrastructure
 {
     public class BusContainer : IBusContainer
     {
-        public IBus CreateBus()
+        private readonly IBus bus;
+
+        public BusContainer()
         {
-            return RabbitHutch.CreateBus("host=localhost");
+            bus = BusFactory.CreateBus();
+        }
+
+        public IBus GetBus()
+        {
+            return this.bus;
         }
     }
 }
