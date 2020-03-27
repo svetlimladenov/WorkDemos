@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatOne", "ChatOne\ChatOne.csproj", "{850741AE-F1B9-4199-86DB-6C5F4DE22E04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{198FA2FF-17A0-4392-84F1-9430F5A2F068}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{850741AE-F1B9-4199-86DB-6C5F4DE22E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850741AE-F1B9-4199-86DB-6C5F4DE22E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850741AE-F1B9-4199-86DB-6C5F4DE22E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850741AE-F1B9-4199-86DB-6C5F4DE22E04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{198FA2FF-17A0-4392-84F1-9430F5A2F068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{198FA2FF-17A0-4392-84F1-9430F5A2F068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{198FA2FF-17A0-4392-84F1-9430F5A2F068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{198FA2FF-17A0-4392-84F1-9430F5A2F068}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15A1B4C0-AFAF-4C00-AF11-E84289702758}
+	EndGlobalSection
+EndGlobal
